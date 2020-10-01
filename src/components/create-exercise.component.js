@@ -6,6 +6,7 @@ import axios from 'axios';
 export default class CreateExercise extends Component {
     constructor(props) {
         super(props);
+        const x=1;
 
         this.onChangeUsername = this.onChangeUsername.bind(this);
         this.onChangeDescription = this.onChangeDescription.bind(this);
